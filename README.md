@@ -18,10 +18,20 @@ zero configuration persistence layer for applications.
 * [Sinatra](https://github.com/sinatra/sinatra) - Web Framework
 * [Shotgun](https://github.com/rtomayko/shotgun) - Automatic rackup reload
 * [Thin](https://github.com/macournoyer/thin) - Web Server
+* [Sprockets](https://github.com/rails/sprockets) - Assets Pipe line
+* [Uglifier](https://github.com/lautis/uglifier) - Js compressor
+* [Sass](https://github.com/sass/sass) - Scss compressor
 
 ### Folder structure:
 ```
     app/
+      assets/
+        images/
+        javascripts/
+          application.js
+        stylesheets/
+          application.scss
+
       controllers/
         index.rb
 
@@ -42,14 +52,6 @@ zero configuration persistence layer for applications.
     db/
       migrate/       # Migration folder
       seeds.rb       # Seeds file
-
-    public/
-      css/
-        application.css
-        normalize.css
-      js/
-        application.js
-      favicon.ico
 
     source/
       .gitignore
